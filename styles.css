@@ -1,0 +1,100 @@
+h2{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+p:hover{
+    background-color: rgb(120,116,172);
+
+}
+p:active{
+    background-color: rgb(64,134,125,0.507);
+}
+header:first-child{
+    background-color: rgba(163,81,132,0.397);
+}
+p:nth-child(2){
+    background-color: brown;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+	text-align: justify;
+}
+
+.nextbutton {
+	background: url('Images/0%.png') no-repeat -297px -150px;
+	width: 105px;
+	height: 88px;
+    float: right;
+    margin-right: 20%;
+    margin-left: 20%;
+	background-color: transparent;
+    animation-name: myAnimation;
+    animation-duration: 10s;
+    transition: transform ease-out 1s;
+    animation-iteration-count: infinite;
+}
+.nextbutton:hover{
+	background: url('Images/0%.png') no-repeat -297px -150px;
+	width: 105px;
+	height: 88px;
+    transform: translate(60px);
+}
+
+@keyframes myAnimation{
+    0%{	background: url('Images/0%.png') no-repeat -297px -150px;
+	width: 105px;
+	height: 88px;}
+    10%{	background: url('Images/10%.png') no-repeat -297px -150px;
+	width: 105px;
+	height: 88px;}
+    20%{	background: url('Images/20%.png') no-repeat -297px -150px;
+	width: 105px;
+	height: 88px;}
+    30%{	background: url('Images/30%.png') no-repeat -297px -150px;
+	width: 105px;
+	height: 88px;}
+    40%{	background: url('Images/40%.png') no-repeat -297px -150px;
+	width: 105px;
+	height: 88px;}
+    50%{	background: url('Images/50%.png') no-repeat -297px -150px;
+	width: 105px;
+	height: 88px;}
+    60%{	background: url('Images/60%.png') no-repeat -297px -150px;
+	width: 105px;
+	height: 88px;}
+    70%{	background: url('Images/70%.png') no-repeat -297px -150px;
+	width: 105px;
+	height: 88px;}
+    80%{	background: url('Images/80%.png') no-repeat -297px -150px;
+	width: 105px;
+	height: 88px;}
+    90%{	background: url('Images/90%.png') no-repeat -297px -150px;
+	width: 105px;
+	height: 88px;}
+    100%{	background: url('Images/100%.png') no-repeat -297px -150px;
+	width: 105px;
+	height: 88px;}
+}
+
+.backbutton {
+	background: url('Images/bluesign.png') no-repeat 0 -136px;
+	width: 103px;
+	height: 103px;
+    margin-right: 20%;
+    margin-left: 20%;
+    float: left;
+	background-color: transparent;
+    transition: all ease-out 1s;
+
+
+}
+.backbutton:hover{
+    background: url('Images/bluesign.png') no-repeat 0 -136px;
+	width: 103px;
+	height: 103px;
+    transform: scale(1.3) translate(-60px);
+
+}
